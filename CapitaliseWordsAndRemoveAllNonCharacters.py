@@ -8,5 +8,5 @@ def remove_non_chars(text):
     cleaned_text = re.sub(pattern, '', capitalized_text)
     return cleaned_text
 
-string = "Dishwashing Powder beats Tablets On Econonmic And Enviromental Impacts Of Waste"
+string = "Subscription e-bike startup Zoomo cuts jobs again after raising $24 million"
 print(remove_non_chars(string))
