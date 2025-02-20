@@ -9,5 +9,5 @@ def remove_non_chars(text):
     return cleaned_text
 
 # Ask for input from the user
-string = input("Enter a string: ")
+string = input("Enter a phrase: ")
 print(remove_non_chars(string))
